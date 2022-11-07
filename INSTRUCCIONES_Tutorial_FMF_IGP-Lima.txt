@@ -1,0 +1,97 @@
+____ ____ _____                  
+|_ _/ ___|_   _|__ _ __ _ __ ___ 
+ | |\___ \ | |/ _ \ '__| '__/ _ \
+ | | ___) || |  __/ |  | | |  __/
+|___|____/ |_|\___|_|  |_|  \___|
+
+Tutorial de Filtro Rápido de Coincidencias (Fast Matched Filter)
+
+Autor del Tutorial: Hugo Sánchez Reyes (IRD ISTerre Universidad de Grenoble, Francia)
+
+Este material tiene como objetivo resumir los pasos a seguir para instalar y
+correr el software FMF (Fast Matched Filter). Este software puede ser utili-
+zado para analizar datos sísmicos continuos (velocidad, aceleración o defor-
+mación). Los resultados de este tipo de análisis sirven en la  detección  de
+eventos más pequeños que escapan a los algoritmos de detección automática. 
+
+
+Instalación.
+
+Lo primero es crear un ambiente de trabajo utilizando anaconda dentro de nu-
+estra máquina virtual con Linux. De igual forma podemos instalar  en Windows
+pero el proceso sería un poco diferente a los pasos aquí detallados. Debemos
+ocupar los siguientes comandos para crear el ambiente de trabajo
+
+
+conda create --name fmf_tuto --file FMF_tuto_Python_packages.txt
+     |                 |                       |
+     |                 |                       |
+Crea ambiente    llamado fmf_tuto     con el software detallado
+                                      en la lista dada por este
+                                            archivo
+
+Una vez creado el ambiente de trabajo llamado fmf_tuto debemos
+activarlo para poder trabajar con el software necesario. Usare-
+mos el siguiente comando para activar el ambiente.
+
+conda activate fmf_tuto
+     |             |
+     |             |
+  activa el     llamado 
+  ambiente      fmf_tuto
+
+Instalaremos ObsPy, un módulo que nos ayudará al procesamiento 
+de los datos sísmicos.
+
+pip install obspy
+
+pip install pandas
+
+Ahora debemos irnos al directorio donde están los archivos  del
+software FMF. En el escritorio deberán tener una carpeta llama-
+da fmf con los archivos necesarios. Vayan a esa carpeta con  el
+siguiente comando.
+
+cd ~/Escritorio/fmf
+
+Para instalar el software FMF, deberán utilizar los siguientes
+comandos con su respectivo orden.
+
+1. Primero activen el ambiente:
+source activate fmf_tuto
+
+2. Compilen el código:
+python setup.py build_ext
+
+   El resultado de este comando se debe ver así:
+
+running build_ext
+make: Nothing to be done for 'python_cpu'.
+nvcc -O3 -Xcompiler "-fopenmp -fPIC -march=native -ftree-vectorize" -Xlinker -lgomp -arch=sm_35 --shared fast_matched_filter/src/matched_filter.cu -o fast_matched_filter/lib/matched_filter_GPU.so
+/bin/sh: 1: nvcc: not found
+make: *** [Makefile:46: fast_matched_filter/lib/matched_filter_GPU.so] Error 127
+Could not build GPU code
+
+3. Instalen el código:
+pip install .
+
+   El resultado de este comando debe verse así:
+
+Processing /home/sanchezh/Escritorio/fmf
+Requirement already satisfied: numpy in /home/sanchezh/anaconda3/envs/fmf_tuto/lib/python3.7/site-packages (from FastMatchedFilter==1.4.1) (1.17.2)
+Building wheels for collected packages: FastMatchedFilter
+  Building wheel for FastMatchedFilter (setup.py) ... done
+  Created wheel for FastMatchedFilter: filename=FastMatchedFilter-1.4.1-cp37-cp37m-linux_x86_64.whl size=33377 sha256=ec22cd46ddba58355d744f60dc52f9f1166b4eb11b07ddd33b1072012ef5745a
+  Stored in directory: /home/sanchezh/.cache/pip/wheels/8f/7b/37/634f715ef392f76210529e6177356d6a8e5ad416a0fdd5017b
+Successfully built FastMatchedFilter
+Installing collected packages: FastMatchedFilter
+Successfully installed FastMatchedFilter-1.4.1
+
+Si el mensaje final es "Successsfully installed", el código FMF ha sido
+correctamente instalado.
+
+
+
+
+
+
