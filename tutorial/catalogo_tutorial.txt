@@ -1,0 +1,2 @@
+#EventID;date;lat;lon;depth/km;mag_type;mag;year;day;hour;min;sec;author
+1;2022-05-26T12:02:23.000000Z;-14.894;-70.197;252.0;Mw;7.2;2022;26;12;02;23;HUGO-TESTCAT

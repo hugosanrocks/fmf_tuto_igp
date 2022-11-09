@@ -1,0 +1,9 @@
+#Earthquake Info 
+magnitude_type;magnitude;depth;latitude;longitude;origin_time
+mw;7.2;252.0;-14.894;-70.197;2022-05-26T12:02:23.000000
+#Phase arraival 
+SCNL;Time;Uncertainty;Polarity;Evaluation_mode;Phase;Azimuth;Distance;Takeoff_angle;Residual;Weight
+PE.LAGN.BHZ.;2022-05-26T12:02:53.00;0.3;undecidable;manual;P;240.0;0.1844;125.0;0.17;74
+PE.CHVY.BHZ.;2022-05-26T12:02:55.50;0.3;undecidable;manual;P;240.0;0.1844;125.0;0.17;74
+PE.SCRT.BHZ.;2022-05-26T12:03:05.00;0.3;undecidable;manual;P;240.0;0.1844;125.0;0.17;74
+
