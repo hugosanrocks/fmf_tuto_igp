@@ -47,9 +47,7 @@ conda activate fmf_tuto
 Instalaremos ObsPy, un módulo que nos ayudará al procesamiento 
 de los datos sísmicos.
 
-pip install obspy
-
-pip install pandas
+pip install obspy pandas
 
 Ahora debemos irnos al directorio donde están los archivos  del
 software FMF. En el escritorio deberán tener una carpeta llama-
