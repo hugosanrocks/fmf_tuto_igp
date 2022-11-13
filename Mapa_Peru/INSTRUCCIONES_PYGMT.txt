@@ -1,0 +1,32 @@
+Instrucciones para poder utilizar PyGmt.
+
+Los siguientes pasos deben hacerse para lograr una instalación exitosa de PyGMT y los softwares que este necesita.
+
+Actualizamos nuestra sistema de software
+conda upgrade conda
+
+Definimos el canal que se usará para instalar software
+conda config --prepend channels conda-forge
+
+Creamos el ambiente de trabajo para usar PyGMT
+conda create --name pygmt python=3.9 numpy pandas xarray netcdf4 packaging gmt
+
+Activamos el ambiente de trabajo
+conda activate pygmt
+
+Instalamos PyGMT
+conda install pygmt
+
+Instalamos Jupyter notebook
+pip install jupyter
+
+Instalamos Matplotlib, librerias para graficar
+pip install matplotlib
+
+Instalamos ObsPy
+pip install obspy
+
+Instalamos UTM
+pip install utm
+
+
