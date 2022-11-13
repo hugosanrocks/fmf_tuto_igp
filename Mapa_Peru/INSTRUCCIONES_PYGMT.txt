@@ -17,17 +17,8 @@ conda activate pygmt
 Instalamos PyGMT
 conda install pygmt
 
-Instalamos Jupyter notebook
-pip install jupyter
-
-Instalamos Matplotlib, librerias para graficar
-pip install matplotlib
-
-Instalamos ObsPy
-pip install obspy
-
-Instalamos UTM
-pip install utm
+Instalamos Jupyter notebook y otras librerias utiles
+pip install jupyter matplotlib obspy utm
 
 Las instrucciones del tutorial continuan en Tutorial_Mapa_Peru_IGP2022.ipynb.
 
