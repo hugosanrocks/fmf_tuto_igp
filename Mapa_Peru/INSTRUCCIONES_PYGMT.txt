@@ -29,4 +29,6 @@ pip install obspy
 Instalamos UTM
 pip install utm
 
+Las instrucciones del tutorial continuan en Tutorial_Mapa_Peru_IGP2022.ipynb.
+
 
