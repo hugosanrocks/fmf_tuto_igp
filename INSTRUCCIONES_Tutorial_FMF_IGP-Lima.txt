@@ -17,10 +17,14 @@ eventos más pequeños que escapan a los algoritmos de detección automática.
 
 Instalación.
 
-Lo primero es crear un ambiente de trabajo utilizando anaconda dentro de nu-
+Lo primero es crear un ambiente de trabajo utilizando anaconda dentro de nu-
 estra máquina virtual con Linux. De igual forma podemos instalar  en Windows
 pero el proceso sería un poco diferente a los pasos aquí detallados. Debemos
 ocupar los siguientes comandos para crear el ambiente de trabajo
+
+
+Desactivar el ambiente de trabajo en uso:
+conda deactivate
 
 
 conda create --name fmf_tuto --file FMF_tuto_Python_packages.txt
