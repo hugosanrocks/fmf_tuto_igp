@@ -1,0 +1,97 @@
+%=== Préambule ===========================================================
+
+\documentclass[aspectratio=169]{beamer}
+\usepackage[english]{babel}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\usepackage{natbib}
+
+\uselanguage{English}
+\languagepath{English}
+\setcounter{tocdepth}{1}
+
+\lstset{
+  numbers=left,
+  basicstyle=\tiny\ttfamily,      
+  breaklines=true, 
+  showtabs=false,
+  showstringspaces=false,
+}  
+
+%=== Configuration de Beamer et du thème metropolis ======================
+
+\usetheme[background=light]{metropolis}
+
+\definecolor{mLightBrown}{HTML}{000000}
+\definecolor{black}{HTML}{000000}
+\setbeamercolor{structure}{fg=black,bg=mLightBrown}
+\setbeamercolor{palette primary}{%
+	use=normal text,
+	fg=normal text.bg,
+	bg=mLightBrown
+}
+%\setsansfont[BoldFont={Linux Libertine G Bold},Numbers={OldStyle}]{Linux Libertine G}
+
+\metroset{block=fill}
+
+%=== Page de titre =======================================================
+
+%path to logo and biblio -> to be adapted to your local directories 
+\newcommand\dirlogo{~/Public/hugosanrocks.github.com/tex_documents/logos/}
+\newcommand\dirbiblio{../../biblio/}
+
+
+
+\title{{\vskip 1.5cm Curso 1: Teor\'ia de inversi\'on y programaci\'on en Python}}
+\subtitle{}
+\author{H. S\'anchez-Reyes}
+
+\institute[ISTerre, Universit\'e de Grenoble Alpes]
+{
+ISTerre, Universit\'e de Grenoble Alpes, France\\
+\textit{IRD - UGA-ISTerre BQR Project} \vskip 1cm
+7-18 de Agosto de 2023\\
+Lima, Per\'u
+}
+
+\date[2023]{}%2020 AGU Fall Meeting, 8th December}
+\subject{}
+
+\titlegraphic{\centering \vspace{-15pt}\includegraphics[height=1.2cm]{\dirlogo/IRD.png} \qquad \quad \includegraphics[height=1.2cm]{\dirlogo/UGA} \qquad \quad \includegraphics[height=1.2cm]{\dirlogo/ISTerre} \par \vskip 3cm \hskip 8cm \includegraphics[height=2cm]{\dirlogo/IGP.jpeg}\\ \hskip 8cm ¡Gracias por la bienvenida!}
+
+
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north east,yshift=0.0ex] at (current page.north east) {\includegraphics[height=4ex]{\dirlogo/UGA_inv}};
+  %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
+\end{tikzpicture}}
+
+
+
+%=== Document ============================================================
+
+\begin{document}
+
+% --- Préambule ---------------------------------------------------------------
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\section{\small I. Problema directo / Forward problem}
+
+\section{\small II. Problema inverso / Inverse problem}
+
+\section{\small III. Problema lineal / Linear problem}
+
+\section{\small IV. Problema no-lineal / Non-linear problem}
+
+
+\end{document}
+
