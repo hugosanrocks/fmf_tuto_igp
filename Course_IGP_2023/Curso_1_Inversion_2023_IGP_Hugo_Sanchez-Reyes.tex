@@ -12,6 +12,10 @@
 \usepackage{tikz}
 \usepackage{natbib}
 
+\usepackage{color}
+\input{images/rgb}
+
+
 \uselanguage{English}
 \languagepath{English}
 \setcounter{tocdepth}{1}
@@ -217,6 +221,126 @@ siendo $e^{ijk\dots q} +1$ cuando (i, j, k, ... , q) son permutations pares de (
 \section{\small III. Problema lineal / Linear problem}
 
 \section{\small IV. Problema no-lineal / Non-linear problem}
+
+\begin{frame}
+ 
+{\color{black}Podemos encuentrar $m^{est}$ que minimice $L=m^Tm=\sum{m_i}^2$, sujeto a la condición límite de mínimo error $e = d - Gm = 0$. Este problema se puede fácilmente resolver con el método de los multiplicadores de Lagrange. Sólo se requiere minimar la función:
+ \begin{equation}
+  \phi(m) = L + \sum_{i=1}^N{\lambda_i e_i} = \sum_{i=1}^M m^2_i + \sum_{i=1}^N{ \lambda_i   \left[ d_i - \sum^M_{j=1} G_{ij}m_j\right]
+}
+\end{equation}
+
+
+Para solucionar este problema de minimización, derivamos la ecuación e igualamos a cero,
+
+\begin{equation}
+ \frac{\partial\phi}{\partial m_q} = 
+ \sum_{i=1}^M 2 \frac{\partial m_i}{\partial m_q} m_i - \sum_{i=1}^N \lambda_i 
+ \sum_{j=1}^M {G_{ij} \frac{\partial m_j}{\partial m_q}} = 2m_q - \sum_{i=1}^N{\lambda_i G_{iq}}
+\end{equation}
+
+e igualando a cero,
+
+\begin{equation}
+ 2m =  G^T \lambda
+\end{equation}
+}
+ 
+\end{frame}
+
+\begin{frame}
+ 
+{\color{black} Dicha ecuación, $2m=G^T\lambda$, debe ser resulta junto con la ecuación que conocemos $Gm = d$. Sustituyendo la primera ecuación en la segunda, obtenemos que 
+
+\begin{equation}
+ m^{est} = G^T (GG^T)^{-1} d
+\end{equation}
+}
+ 
+\end{frame}
+
+\begin{frame}
+
+{\color{black}
+Idealmente, otra posibilidad sería que nos gustaría clasificar los parámetros del modelo desconocidos en dos grupos: aquellos que están sobredeterminados y aquellos que están indeterminados. Para lograr esto, necesitamos formar un nuevo conjunto de parámetros del modelo que sean combinaciones lineales de los anteriores. 
+
+Por ejemplo, querríamos realizar esta partición a partir de una ecuación arbitraria $Gm = d \quad \rightarrow  G'm'= d'$, donde $m'$ se divide en una parte superior $m'^o$ que está sobredeterminada y una parte inferior $m'^u$ que está indeterminada:
+
+\begin{equation}
+ \begin{bmatrix}
+ G'^o & 0 \\
+ 0    & G'^u 
+ \end{bmatrix} 
+ \begin{bmatrix}
+  m'^o \\
+  m'^u 
+ \end{bmatrix} = 
+ \begin{bmatrix}
+  d'^o \\
+  d'^u
+ \end{bmatrix}
+\end{equation}
+}
+
+\end{frame}
+
+
+\begin{frame}
+
+{\color{black}
+ En lugar de dividir $m$ en partes, supongamos que determinamos una solución que minimiza alguna combinación $\phi$ del error de predicción y la longitud de la solución para los parámetros del modelo no divididos:
+ 
+ \begin{equation}
+  \phi(m) = E + \epsilon^2 L = e^Te + \epsilon^2 m^Tm
+ \end{equation}
+donde el factor de ponderación $\epsilon^2$ determina la importancia relativa que se le da al error de predicción y la longitud de la solución. Si $\epsilon$ se hace lo suficientemente grande, este procedimiento claramente minimizará la parte indeterminada de la solución. Desafortunadamente, también tiende a minimizar la parte sobredeterminada de la solución. Como resultado, la solución no minimizará el error de predicción y no se obtendrá una muy buena estimación de los verdaderos parámetros del modelo que se busca. Si $\epsilon$ es igual a cero, se minimizará el error de predicción, pero no se proporcionará información previa para distinguir los parámetros del modelo indeterminados. 
+}
+
+\end{frame}
+
+
+\begin{frame}
+
+{\color{black}
+ Sin embargo, puede ser posible encontrar algún valor de compromiso para $\epsilon$ que minimice aproximadamente $E$ y al mismo tiempo minimice aproximadamente la longitud de la parte indeterminada de la solución. No existe un método simple para determinar qué valor de $\epsilon$ debe ser (sin resolver el problema dividido); este debe ser determinado mediante prueba y error. Al minimizar $\phi(m)$ con respecto a los parámetros del modelo de una manera exactamente análoga a la derivación de mínimos cuadrados, obtenemos:
+
+\begin{equation}
+ [G^TG + \epsilon^2 I] m^{est} = G^T d
+\end{equation}
+
+lo cuál nos lleva a que
+
+\begin{equation}
+ m^{est} = [G^TG + \epsilon^2 I]^{-1} G^T d.
+\end{equation}
+}
+ 
+\end{frame}
+
+
+\begin{frame}
+ {Normas de medición del ajuste}
+ 
+ {
+ \color{black}
+ Norma L$_1$:
+ \begin{equation*}
+  ||\textnormal{\bf e}||_1 = \left[ \sum_i |e_i|^1 \right]
+ \end{equation*}
+
+ Norma L$_2$:
+ \begin{equation*}
+  ||\textnormal{\bf e}||_2 = \left[ \sum_i |e_i|^2 \right] ^{\frac{1}{2}}
+ \end{equation*}
+ 
+ Norma L$_n$:
+ \begin{equation*}
+  ||\textnormal{\bf e}||_n = \left[ \sum_i |e_i|^n \right] ^{\frac{1}{n}}
+ \end{equation*}
+}
+ 
+\end{frame}
+
 
 \begin{frame}
 

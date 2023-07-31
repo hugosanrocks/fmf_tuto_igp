@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  25 JUL 2023 22:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  1 AUG 2023 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,7 +848,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip67
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count342
-)
+) (./images/rgb.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetr
 opolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
@@ -894,7 +894,7 @@ aTeX to use the Fira fonts on input line 95.
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\vskip' on input line 79.
+(hyperref)                removing `\vskip' on input line 83.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -908,22 +908,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.aux)
 \openout1 = `Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -983,7 +983,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -996,9 +996,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count350
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.out)
 (./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.out)
@@ -1006,57 +1006,57 @@ LaTeX Info: Redefining \nameref on input line 79.
 \openout5 = `Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 79.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 83.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 83.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 79.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 83.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 79.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 79.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 83.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 83.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 83.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 79.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 83.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 79.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 83.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 83.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-9.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-9.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 8
+3.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 79.
+ut line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1099,7 +1099,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD.png Graphic fil
 e (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD.png  used on input line 85.
+IRD.png  used on input line 89.
 (pdftex.def)             Requested size: 41.52405pt x 34.14322pt.
 <~/Public/hugosanrocks.github.com/tex_documents/logos//UGA.pdf, id=15, 410.6180
 7pt x 266.13126pt>
@@ -1107,7 +1107,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//UGA.pdf Graphic fil
 e (type pdf)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//UGA.pdf>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-UGA.pdf  used on input line 85.
+UGA.pdf  used on input line 89.
 (pdftex.def)             Requested size: 52.67421pt x 34.14322pt.
 <~/Public/hugosanrocks.github.com/tex_documents/logos//ISTerre.pdf, id=16, 592.
 2125pt x 345.29pt>
@@ -1115,7 +1115,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//ISTerre.pdf Graphic
  file (type pdf)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//ISTerre.pdf>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-ISTerre.pdf  used on input line 85.
+ISTerre.pdf  used on input line 89.
 (pdftex.def)             Requested size: 58.55602pt x 34.14322pt.
 <~/Public/hugosanrocks.github.com/tex_documents/logos//IGP.jpeg, id=17, 326.218
 75pt x 155.58125pt>
@@ -1123,14 +1123,14 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IGP.jpeg Graphic fi
 le (type jpg)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IGP.jpeg>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IGP.jpeg  used on input line 85.
+IGP.jpeg  used on input line 89.
 (pdftex.def)             Requested size: 119.31525pt x 56.9055pt.
 
-Overfull \vbox (199.94696pt too high) detected at line 85
+Overfull \vbox (199.94696pt too high) detected at line 89
  []
 
 
-Overfull \vbox (44.55656pt too high) detected at line 85
+Overfull \vbox (44.55656pt too high) detected at line 89
  []
 
 [1
@@ -1140,20 +1140,20 @@ sanrocks.github.com/tex_documents/logos//IRD.png> </home/sanchezh/Public/hugosa
 nrocks.github.com/tex_documents/logos//UGA.pdf> </home/sanchezh/Public/hugosanr
 ocks.github.com/tex_documents/logos//ISTerre.pdf> </home/sanchezh/Public/hugosa
 nrocks.github.com/tex_documents/logos//IGP.jpeg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 87.
+ut line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
@@ -1168,10 +1168,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 123.
+IRD_inv.png  used on input line 127.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.91565pt too high) detected at line 123
+Overfull \vbox (19.91565pt too high) detected at line 127
  []
 
 [3
@@ -1182,10 +1182,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 123.
+IRD_inv.png  used on input line 127.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.91565pt too high) detected at line 123
+Overfull \vbox (19.91565pt too high) detected at line 127
  []
 
 [4
@@ -1195,10 +1195,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 123.
+IRD_inv.png  used on input line 127.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.91565pt too high) detected at line 123
+Overfull \vbox (19.91565pt too high) detected at line 127
  []
 
 [5
@@ -1208,10 +1208,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 123.
+IRD_inv.png  used on input line 127.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.91565pt too high) detected at line 123
+Overfull \vbox (19.91565pt too high) detected at line 127
  []
 
 [6
@@ -1221,10 +1221,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 123.
+IRD_inv.png  used on input line 127.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.91565pt too high) detected at line 123
+Overfull \vbox (19.91565pt too high) detected at line 127
  []
 
 [7
@@ -1234,10 +1234,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [8
@@ -1247,10 +1247,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [9
@@ -1260,10 +1260,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [10
@@ -1273,10 +1273,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [11
@@ -1286,10 +1286,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [12
@@ -1299,10 +1299,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [13
@@ -1312,10 +1312,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [14
@@ -1325,10 +1325,10 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 160.
+IRD_inv.png  used on input line 164.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (15.57504pt too high) detected at line 160
+Overfull \vbox (15.57504pt too high) detected at line 164
  []
 
 [15
@@ -1337,21 +1337,21 @@ Overfull \vbox (15.57504pt too high) detected at line 160
 <images/sum_matrix.png, id=119, 966.61125pt x 445.665pt>
 File: images/sum_matrix.png Graphic file (type png)
 <use images/sum_matrix.png>
-Package pdftex.def Info: images/sum_matrix.png  used on input line 183.
+Package pdftex.def Info: images/sum_matrix.png  used on input line 187.
 (pdftex.def)             Requested size: 199.1693pt x 91.82433pt.
 <images/multiplication.png, id=120, 1478.52374pt x 280.04625pt>
 File: images/multiplication.png Graphic file (type png)
 <use images/multiplication.png>
-Package pdftex.def Info: images/multiplication.png  used on input line 183.
+Package pdftex.def Info: images/multiplication.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 67.90044pt.
 File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 183.
+IRD_inv.png  used on input line 187.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (28.51143pt too high) detected at line 183
+Overfull \vbox (28.51143pt too high) detected at line 187
  []
 
 [16
@@ -1359,20 +1359,20 @@ Overfull \vbox (28.51143pt too high) detected at line 183
  <./images/sum_matrix.png> <./images/multiplication.png>]
 File: images/sum_matrix.png Graphic file (type png)
 <use images/sum_matrix.png>
-Package pdftex.def Info: images/sum_matrix.png  used on input line 183.
+Package pdftex.def Info: images/sum_matrix.png  used on input line 187.
 (pdftex.def)             Requested size: 199.1693pt x 91.82433pt.
 File: images/multiplication.png Graphic file (type png)
 <use images/multiplication.png>
-Package pdftex.def Info: images/multiplication.png  used on input line 183.
+Package pdftex.def Info: images/multiplication.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 67.90044pt.
 File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 183.
+IRD_inv.png  used on input line 187.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (28.51143pt too high) detected at line 183
+Overfull \vbox (28.51143pt too high) detected at line 187
  []
 
 [17
@@ -1380,20 +1380,20 @@ Overfull \vbox (28.51143pt too high) detected at line 183
 ]
 File: images/sum_matrix.png Graphic file (type png)
 <use images/sum_matrix.png>
-Package pdftex.def Info: images/sum_matrix.png  used on input line 183.
+Package pdftex.def Info: images/sum_matrix.png  used on input line 187.
 (pdftex.def)             Requested size: 199.1693pt x 91.82433pt.
 File: images/multiplication.png Graphic file (type png)
 <use images/multiplication.png>
-Package pdftex.def Info: images/multiplication.png  used on input line 183.
+Package pdftex.def Info: images/multiplication.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 67.90044pt.
 File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 183.
+IRD_inv.png  used on input line 187.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (28.51143pt too high) detected at line 183
+Overfull \vbox (28.51143pt too high) detected at line 187
  []
 
 [18
@@ -1401,20 +1401,20 @@ Overfull \vbox (28.51143pt too high) detected at line 183
 ]
 File: images/sum_matrix.png Graphic file (type png)
 <use images/sum_matrix.png>
-Package pdftex.def Info: images/sum_matrix.png  used on input line 183.
+Package pdftex.def Info: images/sum_matrix.png  used on input line 187.
 (pdftex.def)             Requested size: 199.1693pt x 91.82433pt.
 File: images/multiplication.png Graphic file (type png)
 <use images/multiplication.png>
-Package pdftex.def Info: images/multiplication.png  used on input line 183.
+Package pdftex.def Info: images/multiplication.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 67.90044pt.
 File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 183.
+IRD_inv.png  used on input line 187.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (28.51143pt too high) detected at line 183
+Overfull \vbox (28.51143pt too high) detected at line 187
  []
 
 [19
@@ -1422,20 +1422,20 @@ Overfull \vbox (28.51143pt too high) detected at line 183
 ]
 File: images/sum_matrix.png Graphic file (type png)
 <use images/sum_matrix.png>
-Package pdftex.def Info: images/sum_matrix.png  used on input line 183.
+Package pdftex.def Info: images/sum_matrix.png  used on input line 187.
 (pdftex.def)             Requested size: 199.1693pt x 91.82433pt.
 File: images/multiplication.png Graphic file (type png)
 <use images/multiplication.png>
-Package pdftex.def Info: images/multiplication.png  used on input line 183.
+Package pdftex.def Info: images/multiplication.png  used on input line 187.
 (pdftex.def)             Requested size: 358.50229pt x 67.90044pt.
 File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 183.
+IRD_inv.png  used on input line 187.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (28.51143pt too high) detected at line 183
+Overfull \vbox (28.51143pt too high) detected at line 187
  []
 
 [20
@@ -1445,7 +1445,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 202.
+IRD_inv.png  used on input line 206.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [21
 
@@ -1454,7 +1454,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 202.
+IRD_inv.png  used on input line 206.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [22
 
@@ -1463,7 +1463,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 202.
+IRD_inv.png  used on input line 206.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [23
 
@@ -1472,7 +1472,7 @@ File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
  file (type png)
 <use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
 Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
-IRD_inv.png  used on input line 211.
+IRD_inv.png  used on input line 215.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [24
 
@@ -1485,7 +1485,30 @@ IRD_inv.png  used on input line 211.
 ] [28
 
 ]
-(./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.bbl) [29
+Overfull \vbox (32.9375pt too high) detected at line 249
+ []
+
+[29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+]
+File: ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png Graphic
+ file (type png)
+<use ~/Public/hugosanrocks.github.com/tex_documents/logos//IRD_inv.png>
+Package pdftex.def Info: ~/Public/hugosanrocks.github.com/tex_documents/logos//
+IRD_inv.png  used on input line 342.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [34
+
+]
+(./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.bbl) [35
 
 ]
 \tf@nav=\write6
@@ -1497,24 +1520,24 @@ IRD_inv.png  used on input line 211.
 \tf@snm=\write8
 \openout8 = `Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
 
 (./Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
 Package rerunfilecheck Info: File `Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reye
 s.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25102 strings out of 483099
- 485542 string characters out of 5964234
- 754360 words of memory out of 5000000
- 39470 multiletter control sequences out of 15000+600000
- 541289 words of font info for 55 fonts, out of 8000000 for 9000
+ 25871 strings out of 483099
+ 497351 string characters out of 5964234
+ 797405 words of memory out of 5000000
+ 40224 multiletter control sequences out of 15000+600000
+ 542171 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 58i,13n,87p,1862b,791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,13n,87p,1862b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1526,11 +1549,11 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.pdf (29 pages, 
-344079 bytes).
+Output written on Curso_1_Inversion_2023_IGP_Hugo_Sanchez-Reyes.pdf (35 pages, 
+354339 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
