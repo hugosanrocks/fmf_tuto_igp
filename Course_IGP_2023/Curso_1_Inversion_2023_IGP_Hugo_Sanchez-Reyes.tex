@@ -92,7 +92,8 @@ Lima, Per\'u
 
 \begin{frame}
  {Vectores, matrices, elementos y operaciones b\'asicas}
- 
+
+ {\color{black}
  \vskip -0.1cm
  Vectores: 
  \begin{equation*}
@@ -123,6 +124,7 @@ Lima, Per\'u
   \end{bmatrix}_{3\times1} \qquad  \textnormal{or,} \qquad n^T = 
   [1, 5, 7]_{1\times3}
  \end{equation*}
+}
 
 \end{frame}
 
@@ -130,8 +132,9 @@ Lima, Per\'u
 \begin{frame}
  {Vectores, matrices, elementos y operaciones b\'asicas}
 
- Matrix:
- \begin{equation*}
+{ \color{black}
+Matrix:
+\begin{equation*}
   \begin{bmatrix}
    4 & 1 & 0 \\
    2 & 7 & 2 \\
@@ -139,27 +142,24 @@ Lima, Per\'u
   \end{bmatrix}_{3\times3}
  \end{equation*}
  \pause
-Matrices con definiciones importantes
+Matrices con definiciones importantes 
+\vskip -0.2cm
  \begin{equation*}
  \textnormal{Identidad:} \pause \quad I = \begin{bmatrix}
    1 & 0 & 0 \\
    0 & 1 & 0 \\
    0 & 0 & 1 
-  \end{bmatrix} \pause \qquad 
-   \textnormal{Sim\'etricas:} \pause \quad X = \begin{bmatrix}
+  \end{bmatrix}, \textnormal{es decir}, I_{ij} = 1, \textnormal{si \,} i = j, \textnormal{sino \,} I_{ij} = 0 \pause 
+ \end{equation*} \pause
+ \begin{equation*}
+     \textnormal{Sim\'etricas:} \pause \quad \textnormal{siendo $X$ una matríz}\quad X = \begin{bmatrix}
    x_{11} & x_{12} & x_{13} \\
    x_{21} & x_{22} & x_{23} \\
    x_{31} & x_{32} & x_{33} 
-  \end{bmatrix} \quad \textnormal{si}, x_{ij} = x_{ji} 
- \end{equation*} \pause
- Invertible: \pause \quad si, \quad $\det(M) > 0$ \quad entonces, \quad $M^{-1}$ existe, tal que 
- \begin{equation*}
-  M^{-1}M = I = MM^{-1}
+  \end{bmatrix} 
  \end{equation*}
- \pause \vskip -1.4cm
- \begin{equation*}
-  \underbrace{M^{-1}}_{pre-multiplicar}M = I = M\underbrace{M^{-1}}_{post-multiplicar}
- \end{equation*}
+ $X$ es simétrica sí, $x_{ij} = x_{ji}$
+}
 
 \end{frame}
 
@@ -167,6 +167,25 @@ Matrices con definiciones importantes
 \begin{frame}
  {Vectores, matrices, elementos y operaciones b\'asicas}
 
+{ \color{black}
+ Invertible: \pause \quad si, \quad $\det(M) \neq 0$ \quad entonces, \quad $M^{-1}$ (la inversa de $M$) existe, tal que 
+ \begin{equation*}
+  M^{-1}M = I = MM^{-1}
+ \end{equation*}
+ \pause \vskip -1.4cm
+ \begin{equation*}
+  \underbrace{M^{-1}}_{pre-multiplicar}M = I = M\underbrace{M^{-1}}_{post-multiplicar}
+ \end{equation*}
+}
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {Vectores, matrices, elementos y operaciones b\'asicas}
+
+{\color{black}
  \vskip 0cm
  Sumas (y restas): 
  \begin{center}  
@@ -183,15 +202,17 @@ Matrices con definiciones importantes
   P_{ij} = \sum^{K}_{k=1} M_{ik}N_{kj}
  \end{equation*}
  \end{center}
+}
 
 \end{frame}
 
 \begin{frame}
  {Vectores, matrices, elementos y operaciones b\'asicas}
  
- Determinante: \pause
+ {\color{black}
+ Determinante de una matríz $M$: \pause
  \begin{equation*}
-  \sum^N_{i=1}  \sum^N_{j=1}  \sum^N_{k=1} \dots \sum^N_{q=1} e^{ijk\dots q} M_{1i} M_{2j} M_{3k} \dots M_{Nq}
+  \det{(M)} = \sum^N_{i=1}  \sum^N_{j=1}  \sum^N_{k=1} \dots \sum^N_{q=1} e^{ijk\dots q} M_{1i} M_{2j} M_{3k} \dots M_{Nq}
  \end{equation*} 
 siendo $e^{ijk\dots q} +1$ cuando (i, j, k, ... , q) son permutations pares de (1, 2, 3, ... , N), y $-1$ cuando son permutaciones impares, y cero en otro caso.
  \pause
@@ -201,9 +222,93 @@ siendo $e^{ijk\dots q} +1$ cuando (i, j, k, ... , q) son permutations pares de (
         c & d 
        \end{bmatrix}} = ad - bc
  \end{equation*}
+}
+
+\end{frame}
+
+\begin{frame}
+ {Vectores, matrices, elementos y operaciones b\'asicas}
+ 
+\vskip -0.2cm
+{\color{black}
+Y la matriz adjunta de la matriz A es:
+\vskip -0.2cm
+La matriz adjunta es aquella en la que cada elemento $a_{ij}$ de la matriz $A$ se sustituye por su adjunto. Se llama adjunto del elemento $a_{ij}$ al menor complementario anteponiendo:
+\vskip -0.2cm
+\begin{itemize}
+ \item {\color{black} El signo es + si i+j es par.}
+ \item {\color{black} El signo es - si i+j es impar.}
+\end{itemize} 
+\vskip -0.2cm
+¿Cuál es la matriz adjunta de $A$? Siendo A:
+\vskip -0.4cm
+\begin{equation*}
+ \begin{bmatrix}
+  a_{11} & a_{12} \\
+  a_{21} & a_{22}
+ \end{bmatrix}
+\end{equation*}
+\pause
+\vskip -0.4cm
+El primer elemento de adj($A$) se encuentra sustituyendo a $a_{11}$ por su menor complementario:
+
+\begin{center}
+\vskip -0.6cm \includegraphics[width=0.6\linewidth]{images/adjunta.png} 
+\end{center}
+}
+
+\end{frame}
+
+
+
+\begin{frame}
+ 
+  suponiendo que:
+ \vskip -0.5cm
+ \begin{equation*}
+  A = \begin{bmatrix}
+       a & b \\
+       c & d
+      \end{bmatrix}
+ \end{equation*}
+
+¿Cuál es la matríz $A^{-1}$? (tienen 5 min):
+
+\pause
+\pause
+\begin{equation*}
+ \mathbf{A}^{-1} = \frac{1}{\text{det}(\mathbf{A})} \begin{bmatrix}
+d & -b \\
+-c & a \\
+\end{bmatrix}
+\end{equation*}
 
  
 \end{frame}
+
+
+
+\begin{frame}
+ {Linealidad de un sistema}
+ 
+ \pause
+ Para demostrar que un sistema es lineal, se deben cumplir las siguientes propiedades:
+
+ Aditividad: \pause Para cualquier par de matrices {\bf A} y {\bf B} y cualquier escalar $\alpha$
+
+\begin{align*}
+f(\mathbf{A} + \mathbf{B}) &= f(\mathbf{A}) + f(\mathbf{B}) \\
+f(\alpha \mathbf{A}) &= \alpha f(\mathbf{A})
+\end{align*}
+ 
+Homogeneidad: \pause
+
+\begin{align*}
+f(\alpha \mathbf{A} + \beta \mathbf{A}) &= \alpha f(\mathbf{A}) + \beta f(\mathbf{A})
+\end{align*}
+
+\end{frame}
+
 
 \begin{frame}
  {Vectores, matrices, elementos y operaciones b\'asicas}
@@ -213,6 +318,9 @@ siendo $e^{ijk\dots q} +1$ cuando (i, j, k, ... , q) son permutations pares de (
  \end{center}
  
 \end{frame}
+
+
+
 
 \section{\small I. Problema directo / Forward problem}
 

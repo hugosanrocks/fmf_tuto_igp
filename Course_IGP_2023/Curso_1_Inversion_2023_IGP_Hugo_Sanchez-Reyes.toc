@@ -1,6 +1,6 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{\small Recordando algebra lineal}{2}{0}{1}
-\beamer@sectionintoc {2}{\small I. Problema directo / Forward problem}{25}{0}{2}
-\beamer@sectionintoc {3}{\small II. Problema inverso / Inverse problem}{26}{0}{3}
-\beamer@sectionintoc {4}{\small III. Problema lineal / Linear problem}{27}{0}{4}
-\beamer@sectionintoc {5}{\small IV. Problema no-lineal / Non-linear problem}{28}{0}{5}
+\beamer@sectionintoc {2}{\small I. Problema directo / Forward problem}{35}{0}{2}
+\beamer@sectionintoc {3}{\small II. Problema inverso / Inverse problem}{36}{0}{3}
+\beamer@sectionintoc {4}{\small III. Problema lineal / Linear problem}{37}{0}{4}
+\beamer@sectionintoc {5}{\small IV. Problema no-lineal / Non-linear problem}{38}{0}{5}

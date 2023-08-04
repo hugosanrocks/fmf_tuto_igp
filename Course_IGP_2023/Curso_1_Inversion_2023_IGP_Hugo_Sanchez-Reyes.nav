@@ -7,53 +7,61 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {1}{0}{2}{3/7}{}{0}}
 \headcommand {\beamer@framepages {3}{7}}
-\headcommand {\slideentry {1}{0}{3}{8/15}{}{0}}
-\headcommand {\beamer@framepages {8}{15}}
-\headcommand {\slideentry {1}{0}{4}{16/20}{}{0}}
-\headcommand {\beamer@framepages {16}{20}}
-\headcommand {\slideentry {1}{0}{5}{21/23}{}{0}}
-\headcommand {\beamer@framepages {21}{23}}
-\headcommand {\slideentry {1}{0}{6}{24/24}{}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {2}{24}}
-\headcommand {\beamer@subsectionpages {2}{24}}
-\headcommand {\sectionentry {2}{\small I. Problema directo / Forward problem}{25}{\small I. Problema directo / Forward problem}{0}}
-\headcommand {\slideentry {2}{0}{1}{25/25}{}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\beamer@sectionpages {25}{25}}
-\headcommand {\beamer@subsectionpages {25}{25}}
-\headcommand {\sectionentry {3}{\small II. Problema inverso / Inverse problem}{26}{\small II. Problema inverso / Inverse problem}{0}}
-\headcommand {\slideentry {3}{0}{1}{26/26}{}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {26}{26}}
-\headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\sectionentry {4}{\small III. Problema lineal / Linear problem}{27}{\small III. Problema lineal / Linear problem}{0}}
-\headcommand {\slideentry {4}{0}{1}{27/27}{}{0}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@sectionpages {27}{27}}
-\headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\sectionentry {5}{\small IV. Problema no-lineal / Non-linear problem}{28}{\small IV. Problema no-lineal / Non-linear problem}{0}}
-\headcommand {\slideentry {5}{0}{1}{28/28}{}{0}}
-\headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {5}{0}{2}{29/29}{}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {5}{0}{3}{30/30}{}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {5}{0}{4}{31/31}{}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {5}{0}{5}{32/32}{}{0}}
-\headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {5}{0}{6}{33/33}{}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {5}{0}{7}{34/34}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{8/13}{}{0}}
+\headcommand {\beamer@framepages {8}{13}}
+\headcommand {\slideentry {1}{0}{4}{14/16}{}{0}}
+\headcommand {\beamer@framepages {14}{16}}
+\headcommand {\slideentry {1}{0}{5}{17/21}{}{0}}
+\headcommand {\beamer@framepages {17}{21}}
+\headcommand {\slideentry {1}{0}{6}{22/24}{}{0}}
+\headcommand {\beamer@framepages {22}{24}}
+\headcommand {\slideentry {1}{0}{7}{25/26}{}{0}}
+\headcommand {\beamer@framepages {25}{26}}
+\headcommand {\slideentry {1}{0}{8}{27/29}{}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {1}{0}{9}{30/33}{}{0}}
+\headcommand {\beamer@framepages {30}{33}}
+\headcommand {\slideentry {1}{0}{10}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\beamer@sectionpages {28}{34}}
-\headcommand {\beamer@subsectionpages {28}{34}}
-\headcommand {\sectionentry {6}{References}{35}{References}{0}}
-\headcommand {\slideentry {6}{0}{0}{35/35}{}{0}}
+\headcommand {\beamer@sectionpages {2}{34}}
+\headcommand {\beamer@subsectionpages {2}{34}}
+\headcommand {\sectionentry {2}{\small I. Problema directo / Forward problem}{35}{\small I. Problema directo / Forward problem}{0}}
+\headcommand {\slideentry {2}{0}{1}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@partpages {1}{35}}
-\headcommand {\beamer@subsectionpages {28}{35}}
-\headcommand {\beamer@sectionpages {28}{35}}
-\headcommand {\beamer@documentpages {35}}
-\headcommand {\gdef \inserttotalframenumber {13}}
+\headcommand {\beamer@sectionpages {35}{35}}
+\headcommand {\beamer@subsectionpages {35}{35}}
+\headcommand {\sectionentry {3}{\small II. Problema inverso / Inverse problem}{36}{\small II. Problema inverso / Inverse problem}{0}}
+\headcommand {\slideentry {3}{0}{1}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@sectionpages {36}{36}}
+\headcommand {\beamer@subsectionpages {36}{36}}
+\headcommand {\sectionentry {4}{\small III. Problema lineal / Linear problem}{37}{\small III. Problema lineal / Linear problem}{0}}
+\headcommand {\slideentry {4}{0}{1}{37/37}{}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\beamer@sectionpages {37}{37}}
+\headcommand {\beamer@subsectionpages {37}{37}}
+\headcommand {\sectionentry {5}{\small IV. Problema no-lineal / Non-linear problem}{38}{\small IV. Problema no-lineal / Non-linear problem}{0}}
+\headcommand {\slideentry {5}{0}{1}{38/38}{}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {5}{0}{2}{39/39}{}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {5}{0}{3}{40/40}{}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {5}{0}{4}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {5}{0}{5}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {5}{0}{6}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {5}{0}{7}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@sectionpages {38}{44}}
+\headcommand {\beamer@subsectionpages {38}{44}}
+\headcommand {\sectionentry {6}{References}{45}{References}{0}}
+\headcommand {\slideentry {6}{0}{0}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {38}{45}}
+\headcommand {\beamer@sectionpages {38}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\gdef \inserttotalframenumber {17}}
