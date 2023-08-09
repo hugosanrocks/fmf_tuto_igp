@@ -150,7 +150,7 @@ Matrices con definiciones importantes
    0 & 1 & 0 \\
    0 & 0 & 1 
   \end{bmatrix}, \textnormal{es decir}, I_{ij} = 1, \textnormal{si \,} i = j, \textnormal{sino \,} I_{ij} = 0 \pause 
- \end{equation*} \pause
+ \end{equation*} 
  \begin{equation*}
      \textnormal{Sim\'etricas:} \pause \quad \textnormal{siendo $X$ una matríz}\quad X = \begin{bmatrix}
    x_{11} & x_{12} & x_{13} \\
@@ -262,7 +262,9 @@ El primer elemento de adj($A$) se encuentra sustituyendo a $a_{11}$ por su menor
 
 
 \begin{frame}
+ {Vectores, matrices, elementos y operaciones b\'asicas}
  
+ {\color{black}
   suponiendo que:
  \vskip -0.5cm
  \begin{equation*}
@@ -282,16 +284,63 @@ d & -b \\
 -c & a \\
 \end{bmatrix}
 \end{equation*}
-
+}
  
 \end{frame}
 
 
+\begin{frame}
+ {Vectores, matrices, elementos y operaciones b\'asicas}
 
+ {\color{black}
+ Comprobemos. La inversa de A es:
+ 
+ \begin{equation*}
+  \textnormal{inv}{(A)} =
+  \frac{1}{\textnormal{det}(A)}
+  \textnormal{adj}(A) = \pause
+    \frac{1}{ad-bc}
+      \begin{bmatrix}
+   a_{22} & -a_{12} \\
+  -a_{21} & a_{11}
+  \end{bmatrix} = \pause
+  \frac{1}{ad-bc}
+  \begin{bmatrix}
+   d & -b \\
+  -c & a
+  \end{bmatrix}
+  \end{equation*} \pause
+  \begin{equation*}
+  \textnormal{inv}{(A)} =
+      \begin{bmatrix}
+    \frac{d}{ad-bc} &  \frac{-b}{ad-bc} \\
+    \frac{-c}{ad-bc} &  \frac{a}{ad-bc}
+  \end{bmatrix}
+  \end{equation*} \pause
+Comprobemos que $A^{-1}A=I$, \pause
+\begin{equation*}
+ A^{-1} A =       \begin{bmatrix}
+    \frac{d}{ad-bc} &  \frac{-b}{ad-bc} \\
+    \frac{-c}{ad-bc} &  \frac{a}{ad-bc}
+  \end{bmatrix} 
+      \begin{bmatrix}
+   a & b \\
+   c & d
+  \end{bmatrix} = \pause  
+\begin{bmatrix}
+    \frac{ad-bc}{da-bc} &  \frac{db-bd}{ad-bc} \\
+    \frac{-ca+ac}{ad-bc} &  \frac{-cb+ad}{ad-bc}
+  \end{bmatrix}  = I 
+\end{equation*}
+
+ }
+\end{frame}
+
+ 
 \begin{frame}
  {Linealidad de un sistema}
  
- \pause
+{\color{black} 
  Para demostrar que un sistema es lineal, se deben cumplir las siguientes propiedades:
 
  Aditividad: \pause Para cualquier par de matrices {\bf A} y {\bf B} y cualquier escalar $\alpha$
@@ -299,13 +348,14 @@ d & -b \\
 \begin{align*}
 f(\mathbf{A} + \mathbf{B}) &= f(\mathbf{A}) + f(\mathbf{B}) \\
 f(\alpha \mathbf{A}) &= \alpha f(\mathbf{A})
-\end{align*}
+\end{align*} \pause
  
 Homogeneidad: \pause
 
 \begin{align*}
 f(\alpha \mathbf{A} + \beta \mathbf{A}) &= \alpha f(\mathbf{A}) + \beta f(\mathbf{A})
 \end{align*}
+}
 
 \end{frame}
 
