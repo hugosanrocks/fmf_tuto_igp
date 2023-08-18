@@ -1,0 +1,15 @@
+SEISMO         			! Seismograms output directory (old)
+1                      		! Number of layers
+0. 5.72 3.30 2.60 1e10 1e10    	! H, Vp, Vs, Rho, Qp, Qs
+15.           			! Point source depth (km)
+295.0 13. 90.        		! Strike, Dip, Rake (deg)
+5           			! Number of stations
+0.  0.             		! Station dist (km) and azimuth (deg)   
+20. 90.             		! Station dist (km) and azimuth (deg)
+20. 180.             		! Station dist (km) and azimuth (deg)
+20. 270.             		! Station dist (km) and azimuth (deg)
+20. 0.             		! Station dist (km) and azimuth (deg)
+1024 35.             		! Number of samples, window duration (s)
+3e15                        	! Seismic moment (Nw*m)
+1.0             		! Rice time (gaussian)
+1.          			! Source origin time (center gaussian)
